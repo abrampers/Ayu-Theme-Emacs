@@ -18,6 +18,7 @@
  'ayu-dark
  '(default ((t (:foreground "#c3c0bb" :background "#000919" ))))
  '(cursor ((t (:background "DarkOrange1"))))
+ '(fringe ((t (:foreground "#c3c0bb" :background "#000919" ))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
  '(minibuffer-prompt ((t (:foreground "#9DA5B4"))))
  '(highlight ((t (:background "#3E4451"))))
@@ -25,6 +26,7 @@
  '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
  '(secondary-selection ((t (:background "#121417"))))
  '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
+ '(whitespace-tab ((t (:background "#000919"))))
  '(font-lock-builtin-face ((t (:foreground "DeepSkyBlue1"))))
  '(font-lock-comment-delimiter-face ((t (:inherit (font-lock-comment-face)))))
  '(font-lock-comment-face ((t (:foreground "#5C6370"))))

@@ -16,8 +16,9 @@
 
 (custom-theme-set-faces
  'ayu-light
- '(default ((t (:family "Overpass Mono" :foundry "nil" :width normal :height 120 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "gray40" :background "#fafafa" :stipple nil :inherit nil))))
+ '(default ((t (:foundry "nil" :slant normal :foreground "gray40" :background "#fafafa"))))
  '(cursor ((t (:background "dark blue"))))
+ '(fringe ((t (:foundry "nil" :slant normal :foreground "gray40" :background "#fafafa"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
@@ -27,6 +28,7 @@
  '(shadow ((t (:foreground "#607d8b"))))
  '(secondary-selection ((t (:background "#bf616a"))))
  '(trailing-whitespace ((t (:underline nil :inverse-video t :foreground "#B71C1C"))))
+ '(whitespace-tab ((t (:background "#fafafa"))))
  '(font-lock-builtin-face ((t (:foreground "#00a3f1"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "gray60"))))
  '(font-lock-comment-face ((t (:foreground "gray70"))))

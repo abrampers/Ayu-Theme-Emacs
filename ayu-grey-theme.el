@@ -16,8 +16,9 @@
 
 (custom-theme-set-faces
  'ayu-grey
- '(default ((t (:family "Fira Code" :foundry "nil" :width normal :height 120 :weight light :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#c3c0bb" :background "#1b212f" :stipple nil :inherit nil))))
+ '(default ((t (:foundry "nil" :slant normal :foreground "#c3c0bb" :background "#1b212f"))))
  '(cursor ((t (:background "DarkOrange1"))))
+ '(fringe ((t (:foreground "$c3c0bb" :background "#1b212f"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
  '(escape-glyph ((((background dark)) (:foreground "cyan")) (((type pc)) (:foreground "magenta")) (t (:foreground "brown"))))
@@ -27,9 +28,10 @@
  '(shadow ((((class color grayscale) (min-colors 88) (background light)) (:foreground "grey50")) (((class color grayscale) (min-colors 88) (background dark)) (:foreground "grey70")) (((class color) (min-colors 8) (background light)) (:foreground "green")) (((class color) (min-colors 8) (background dark)) (:foreground "yellow"))))
  '(secondary-selection ((t (:background "#121417"))))
  '(trailing-whitespace ((((class color) (background light)) (:background "red1")) (((class color) (background dark)) (:background "red1")) (t (:inverse-video t))))
+ '(whitespace-tab ((t (:background "#1b212f"))))
  '(font-lock-builtin-face ((t (:foreground "DeepSkyBlue1"))))
  '(font-lock-comment-delimiter-face ((t (:inherit (font-lock-comment-face)))))
- '(font-lock-comment-face ((t (:foreground "#4c5e65"))))
+ '(font-lock-comment-face ((t (:slant italic :foreground "#4c5e65"))))
  '(font-lock-constant-face ((t (:foreground "#01fcff"))))
  '(font-lock-doc-face ((t (:inherit (font-lock-string-face) :foreground "#968b62"))))
  '(font-lock-function-name-face ((t (:foreground "#00bbea"))))
